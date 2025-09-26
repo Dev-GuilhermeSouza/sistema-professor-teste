@@ -1,7 +1,7 @@
 const loginForm = document.getElementById("loginForm");
 const loginError = document.getElementById("loginError");
 
-// Usuários de exemplo (em produção, isso viria do servidor)
+// Usuários de exemplo
 const professores = [
   { email: "professor@escola.com", senha: "123456", nome: "Prof. Guilherme" }
 ];
@@ -23,7 +23,6 @@ loginForm.addEventListener("submit", function(e) {
   }
 });
 
-// Seleciona o link de logout
 const logoutBtn = document.querySelector(".logout-mode a");
 
 // Evento de clique

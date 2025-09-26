@@ -30,5 +30,5 @@ const logoutBtn = document.querySelector(".logout-mode a");
 logoutBtn.addEventListener("click", e => {
   e.preventDefault(); // previne o comportamento padrão do link
   localStorage.removeItem("professorLogado"); // remove sessão
-  window.location.href = "LoginProfessor.html"; // redireciona para login
+  window.location.href = "index.html"; // redireciona para login
 });

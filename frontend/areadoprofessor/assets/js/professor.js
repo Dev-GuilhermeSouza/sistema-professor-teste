@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", () => {
   // ===== Login guard =====
   const professor = localStorage.getItem("professorLogado");
   if (!professor) {
-    window.location.href = "LoginProfessor.html";
+    window.location.href = "index.html";
     return;
   }
 
